@@ -1,0 +1,15 @@
+{
+  "name": "coai-bot",
+  "version": "1.1.0",
+  "description": "Discord bot hiển thị giá $COAI và ping test",
+  "main": "coai-bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node coai-bot.js",
+    "dev": "node coai-bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "node-fetch": "^3.3.2"
+  }
+}

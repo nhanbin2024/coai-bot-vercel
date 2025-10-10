@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/start.js", "use": "@vercel/node" },
+    { "src": "coai-bot.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/start", "dest": "/api/start.js" }
+  ]
+}
