@@ -21,4 +21,4 @@
 - Vào Discord → gõ `$ping` → bot trả lời `🏓 Pong! Bot COAI vẫn online!`
 - Tag `@COAI` → bot trả về giá hiện tại và CA.
 https://coai-bot-vercel.vercel.app/api/start
-.
+...
