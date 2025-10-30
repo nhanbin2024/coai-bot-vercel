@@ -14,7 +14,7 @@ const client = new Client({
 client.once("ready", () => {
   console.log(`✅ Bot COAI đã hoạt động: ${client.user.tag}`);
   client.user.setActivity("$COAI", { type: "WATCHING" });
-});
+});worker: python bot.py
 
 client.on("messageCreate", async (msg) => {
   if (msg.author.bot) return;
