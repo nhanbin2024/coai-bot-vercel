@@ -13,7 +13,18 @@ const client = new Client({
 import fetch from "node-fetch";
 
 const TOKEN = process.env.TOKEN;
+import { Client, GatewayIntentBits, EmbedBuilder } from "discord.js";
+import fetch from "node-fetch";
 
+const TOKEN = process.env.TOKEN;
+
+const client = new Client({
+  intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.MessageContent,
+  ],
+});
 const client = new Client({
   intents: [
     GatewayIntentBits.Guilds,
