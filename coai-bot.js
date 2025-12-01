@@ -21,7 +21,18 @@ const client = new Client({
     GatewayIntentBits.MessageContent,
   ],
 });
+import { Client, GatewayIntentBits, EmbedBuilder } from "discord.js";
+import fetch from "node-fetch";
 
+const TOKEN = process.env.TOKEN;
+
+const client = new Client({
+  intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.MessageContent,
+  ],
+});
 client.once("ready", () => {
   console.log(`✅ Bot COAI đã hoạt động: ${client.user.tag}`);
   client.user.setActivity("$COAI", { type: "WATCHING" });
