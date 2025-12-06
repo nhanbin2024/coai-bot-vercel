@@ -1,4 +1,4 @@
-# COAI Discord Bot 🚀
+# COAI Discord Bot 🚀# COAI Discord Bot 🚀
 # COAI Discord Bot 🚀
 ### ⚡ Chức năng
 - Trả giá **$COAI** theo thời gian thực từ CoinGecko khi tag `@COAI`
