@@ -22,3 +22,4 @@
 - Tag `@COAI` → bot trả về giá hiện tại và CA.
 https://coai-bot-vercel.vercel.app/api/start
   https://coai-bot-vercel.vercel.app/api/start
+https://coai-bot-vercel.vercel.app/api/start
